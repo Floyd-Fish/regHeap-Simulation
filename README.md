@@ -55,7 +55,7 @@ VCD文件输出使用￥dumpfile和￥dumpvars两个系统任务实现，e.g如�
 
 ```Verilog
 $dumpfile(<filename>)
-#dumpvars(<Start time>, <Name of the output waveform file or signal>)
+$dumpvars(<Start time>, <Name of the output-waveform file / signal>)
 
 eg:
 initial begin 
